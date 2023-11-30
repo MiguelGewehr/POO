@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "map": "cpp",
+        "functional": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "istream": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/jpalmeida/Documents/ufes/ensino/2023-02-poo-manha/cppworkspace/labcsv",
+            "binaryPath": "/Users/jpalmeida/Documents/ufes/ensino/2023-02-poo-manha/cppworkspace/labcsv/main",
+            "binaryArgs": []
+        }
+    ]
+}

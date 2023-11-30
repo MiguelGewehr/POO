@@ -1,0 +1,30 @@
+// option-D on VSCode
+// https://plantuml.com/class-diagram
+//	
+
+@startuml
+skinparam dpi 600
+skinparam defaultFontName SF Compact Rounded
+skinparam DefaultFontSize 6
+skinparam class {
+	ArrowColor Black
+    ArrowThickness .5
+    ArrowFontSize 5
+    BorderColor Black
+	BackgroundColor LightBlue
+}
+skinparam classBorderThickness .5
+hide circle
+skinparam shadowing false
+hide empty members
+
+
+class RedeSocial
+class Usuario 
+{
+    id : int,
+    nome : String
+}
+RedeSocial "1" -> "usuarios\n*" Usuario
+Usuario "*" -up-> "amigos\n*" Usuario
+@enduml
